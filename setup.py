@@ -15,7 +15,7 @@ setuptools.setup(
 
     author="author",
 
-    package_dir={"": "cdk_py"},
+    package_dir={"": "infrastructure"},
     packages=setuptools.find_packages(where="cdk_py"),
 
     install_requires=[
